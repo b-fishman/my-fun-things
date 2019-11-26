@@ -5,8 +5,8 @@ import datetime as dt
 reddit = praw.Reddit(client_id='CPKDBdZajGuy3w', \
                      client_secret='EUQTxbU7cqIiGKiJM27jECQgfgc', \
                      user_agent='important_distinction', \
-                     username='WestCoastBoiler', \
-                     password='qJNj2QibaVeF')
+                     username='', \
+                     password='')
 
 subreddit = reddit.subreddit('The_Donald')
 
